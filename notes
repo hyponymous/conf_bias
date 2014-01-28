@@ -1,0 +1,76 @@
+
+Hi. Thanks for having me here. [smile]
+
+This talk was originally intended for an audience not well-versed in the arts of rationality. Not up to date on the heuristics and biases literature. So this will be pretty basic for most of you, especially if you've read A Human's Guide To Words. I hope, though, that one or two of the ideas that I talk about tonight will be genuinely new. Or at least give you a new way of looking at something you already understand.
+
+I'll start with a quote. [lamb quote] This will be relevant, I promise. Maybe some of you already know where this is going.
+
+Briefly, so you know what to expect, I'll talk a little bit about
+    - my background and why you should be listening to me
+    - what communication is
+    - how to do it efficiently and what happens when you optimize for information transfer
+    - confirmation bias as a roadblock to communication
+    - and finally why telepathy is so dang hard, plus the structure of human knowledge
+
+So, who is this guy?
+
+I'm a software engineer based in San Francisco. (That's a definition symbol there. Whether that's a good definition we'll leave for another time.)
+
+My academic background is in pure math and computer science. For most of my career I've worked in casual games and now I work for a company that builds an enterprise data transformation tool.
+
+In the last few years, not coincidentally since I started reading lesswrong, I've been getting more interested in Bayesian statistics, machine learning, and data visualization. I'm also pretty knowledgeable about how technology is being used in education, so if you're interested in starting an education company come talk to me afterwards—I may know some people you can talk to.
+
+A quick disclaimer: I'm not an expert, I just like to think about things in a structured way.
+
+What is it? What are a talking about? Communication is a broad topic and I'm really only talking about a narrow part of it. I'm talking about the kind of communication that happens all the time in my industry, say, between a designer and an engineer. The designer has an idea in their head and the engineer is the one who has to build it, so somehow the idea has to jump from the designer's head to the engineer's.
+
+I'm talking about model transfer.
+
+Here's a quote from Douglas Hofstadter: [read Hofstadter quote]
+
+So what he's saying is, the thing that happens in my brain when I think about a tree or a dog or mathematics is not in any way the same thing as what happens in your brain when you think about a tree or a dog or mathematics.
+
+But the patterns are isomorphic.
+
+And for the programmers out there, they present the same interface.
+
+Communication works because (and to the extent that) we share handles (such as words, phrases, or icons) to nearly isomorphic thought patterns.
+
+Now that we know what we're talking about, how do we do it well? Humans are actually shockingly good at this, and we can do it despite severe handicaps. Even deaf-blind people are able to learn language and communicate.
+
+Sometimes it helps to think about how a system works when you apply severe constraints—often any solutions you find generalize to less constrained systems. Let's look at an example.
+
+Here are some bad questions. Is it a zebra? a penguin? These are too specific: you'll go through half the dictionary on average before you find the answer, and that's assuming the answer's even in the dictionary!
+
+Is it made of atoms? This question actually might be ok, since many things (love, or the Portugese language) are arguably not made of atoms. But once you narrow down the possibilities a little bit it's easy to imagine a question being too general.
+
+Good questions: is it a mammal? is it fictional? What makes these good? They're good questions because they divide the search space roughly in half a each point. You're *guaranteed* to eliminate large swaths of the search space at each step. These questions have a high expected VOI (assuming you really care about getting the answer).
+
+A good question is one that divides the probability mass of the remaining search space into equal parts.
+
+Fortunately English is more expressive than a series of yeses and nos. But still, some concepts can be difficult to communicate.
+
+[What can possibly go wrong?]
+
+Confirmation bias can get in the way. Often what we're trying to communicate is not just a single point in concept-space, but a region, or a category delimited by a certain rule. If we have some notion of what that rule is, we'll tend to seek information that confirms the rule rather than falsifying it. Psychologist Peter Wason studied this effect in the 70's and coined the term. Here's a demo which you've probably seen before.
+
+[demo]
+
+This might remind you of a certain game played with pyramid-shaped pieces. If I were still making games, I'd be all over a zendo clone.
+
+So this is rationality 101. If you can't explain something or can't understand something, notice your confusion, and check your assumptions. Chances are your assumptions aren't the same as the other person's. You don't have the same background as the other person. So you're going to understand the world differently even when presented the same evidence.
+
+Pointing these things out can be a delicate business, and informal protocols tend to appear in environments where egos are involved but communicating ideas matters. It's usually a good idea to learn these, but that's a topic for another talk.
+
+How are we doing on time?
+
+Let's talk about telepathy.
+
+Stephen King says writing is telepathy, and indeed all art depends on the almost magical transportation of ideas across time and space.
+
+So why, besides confirmation bias and status games, is it hard? Well, categories are fuzzy, so we're open to equivocation, intentional or not.
+
+Knowledge is transmitted in a highly compressed form: human knowledge is heavily hierarchical—there is a dependency graph of concepts and it is much harder to understand an idea if you don't know the prerequisite concepts. One consequence of this is that you have to learn things in the right order as Luke Muehlhauser points out. Another consequence is that in specialized fields you can expect large inferential distances and in some areas (like postmodernist critique or philosophy) it becomes difficult to verify if someone really knows what they're talking about or just knows how to play the game.
+
+But I would argue that it's not as bleak as it sounds. For one, the human knowledge graph is not as dense as it seems, and many dependencies are softer than they seem. Also we're actually pretty good at working with gaps in our knowledge—through things like analogies—and often a general understanding of things is enough to get the job done.
+
